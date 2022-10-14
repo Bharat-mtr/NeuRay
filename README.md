@@ -6,6 +6,8 @@ Rendered video without training on the scene.
 
 ## [Project page](https://liuyuan-pal.github.io/NeuRay/) | [Paper](https://arxiv.org/abs/2107.13421)
 
+[DAGsHub Repository](https://dagshub.com/Bharat-mtr/NeuRay)
+
 ## Todo List
 
 - [x] Generalization models and rendering codes.
@@ -31,8 +33,8 @@ pip install -r requirements.txt
 </details>
 
 ### Download datasets and pretrained models
-1. Download processed datasets: [DTU-Test](https://drive.google.com/file/d/1E53MjQJR-cSndJi14MXjx1ombzSq7XTu/view?usp=sharing) / [LLFF](https://drive.google.com/file/d/1CPfdekwKM6zt_skb-IYOruN3Dyzwfhdm/view?usp=sharing) / [NeRF Synthetic](https://drive.google.com/file/d/1EEwDBQY2jUNJpptxOZPG9nkHz96HChed/view?usp=sharing).
-2. Download pretrained model [NeuRay-Depth](https://drive.google.com/file/d/1ZIwCnnD8avga8f-p5-Z8m1C_lRgdDaLq/view?usp=sharing) and [NeuRay-CostVolume](https://drive.google.com/file/d/16EVg1ql86FlHwP4JaBhR79dT-gBhDUK2/view?usp=sharing).
+1. Download processed datasets: [DTU-Test](https://dagshub.com/Bharat-mtr/NeuRay/src/main/data/dtu_test) / [LLFF](https://dagshub.com/Bharat-mtr/NeuRay/src/main/data/llff_colmap) / [NeRF Synthetic](https://dagshub.com/Bharat-mtr/NeuRay/src/main/data/nerf_synthetic).
+2. Download pretrained model [NeuRay-Depth](https://dagshub.com/Bharat-mtr/NeuRay/src/main/model/neuray_gen_depth) and [NeuRay-CostVolume](https://dagshub.com/Bharat-mtr/NeuRay/src/main/model/neuray_gen_cost_volume).
 3. Organize datasets and models as follows
 ```
 NeuRay
